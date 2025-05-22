@@ -42,7 +42,7 @@ export const AboutUsSection = () => {
     {
       name: "Buen Amigo de Gerli",
       description: "Más de dos décadas de compromiso",
-      image: "/public/assets/1.webp",
+      image: "/assets/1.webp",
     },
     {
       name: "Jornadas de castraciones gratuitas",
