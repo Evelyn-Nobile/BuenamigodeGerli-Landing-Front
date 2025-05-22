@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main-background {
+  min-height: 100vh;
+  background-color: #fbfff9;
+  box-shadow: inset 0 0 100px #d9f0d0;
+  padding: 1rem 2rem;
+  
+}
