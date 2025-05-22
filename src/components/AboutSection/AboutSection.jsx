@@ -47,17 +47,17 @@ export const AboutUsSection = () => {
     {
       name: "Jornadas de castraciones gratuitas",
       description: "Esterilizar salva vidas",
-      image: "/public/assets/2.webp",
+      image: "/assets/2.webp",
     },
     {
       name: "Jornadas de identificación gratuitas",
       description: "Más de 9.500 identificaciones realizadas",
-      image: "/public/assets/3.webp",
+      image: "/assets/3.webp",
     },
     {
       name: "Ferias Americanas y rifas",
       description: "Para recaudar fondos y seguir haciendo esto posible",
-      image: "/public/assets/4.webp",
+      image: "/assets/4.webp",
     },
   ];
 
