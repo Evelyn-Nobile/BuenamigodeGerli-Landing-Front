@@ -46,16 +46,30 @@ function Footer() {
           mb: 2,
         }}
       >
-        <IconButton
+     <IconButton
           aria-label="Facebook"
           href="https://www.facebook.com/profile.php?id=100010636781684"
           target="_blank"
           rel="noopener noreferrer"
-          sx={{ color: "#FFA500" }}
+          sx={{
+            color: "#FFA500 !important",
+            WebkitTapHighlightColor: "transparent",
+            "&:active, &:focus": {
+              color: "#FFA500 !important",
+              backgroundColor: "transparent !important",
+            },
+          }}
         >
           <FacebookIcon fontSize="large" />
-          <Typography component="span" sx={{ ml: 0.5, fontSize: "1.5rem" }}>
-            🐾
+          <Typography
+            component="span"
+            sx={{
+              ml: 0.5,
+              fontSize: "1.5rem",
+              WebkitTapHighlightColor: "transparent",
+            }}
+          >
+            🦴
           </Typography>
         </IconButton>
 

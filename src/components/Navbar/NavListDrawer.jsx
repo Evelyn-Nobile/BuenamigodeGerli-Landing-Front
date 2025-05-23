@@ -14,6 +14,7 @@ import {
 import { useTheme } from "@mui/material/styles";
 import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
+import { Pets } from "@mui/icons-material";
 
 export default function NavListDrawer({ onClose }) {
   const theme = useTheme();
@@ -127,16 +128,15 @@ export default function NavListDrawer({ onClose }) {
                       }
                     />
                     {isActive(item.to) && (
-                      <Typography
-                        component="span"
-                        sx={{
-                          fontSize: "16px",
-                          color: "#FFA500",
-                        }}
-                      >
-                        🐾
-                      </Typography>
-                    )}
+
+
+
+  <PetsIcon sx={{ 
+    fontSize: "16px",
+    color: "#FFA500",
+    WebkitTapHighlightColor: "transparent"
+  }} />
+)}
                   </Stack>
                 </ListItemButton>
               </ListItem>
