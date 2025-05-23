@@ -14,7 +14,10 @@ import {
 import { useTheme } from "@mui/material/styles";
 import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
-import { PetsIcon } from "@mui/icons-material";
+import PetsIcon from '@mui/icons-material/Pets';
+
+
+
 
 export default function NavListDrawer({ onClose }) {
   const theme = useTheme();
